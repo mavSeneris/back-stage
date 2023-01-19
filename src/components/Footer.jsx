@@ -11,7 +11,15 @@ export default function Footer() {
             <a className='footer-links' href='#'>Privacy Policy</a>
           </div>
         </div>
+        <div className='issue-container'>
+          <span>Issue #6</span>
+          <span>Issue #5</span>
+          <span>Issue #4</span>
+          <span>Issue #3</span>
+          <span>Issue #2</span>
+          <span>Issue #1</span>
 
+        </div>
       </div>
     </div>
   )

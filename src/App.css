@@ -29,6 +29,7 @@ img {
   height: auto;
 }
 
+
 /** Navbar */
 .navbar{
   width: 100%;
@@ -41,7 +42,7 @@ img {
 }
 
 .logo{
-  width: 22%;
+  width: 15%;
 }
 
 .contact{
@@ -62,6 +63,8 @@ img {
   overflow: scroll;
 }
 
+
+
 .main-wrapper{
   display: flex;
   flex-direction: column;
@@ -72,7 +75,7 @@ img {
 }
 
 .cover{
-  width: 400px;
+  width: 420px;
 }
 
 .main-cover-text{
@@ -89,15 +92,36 @@ img {
   text-transform: uppercase;
 }
 
+
+
 /** Footer */
 .footer{
+  display: flex;
+  flex-direction: row;
   position: fixed;
   bottom: 0;
-  align-self: flex-start;
-  width: 350px;
+  width: 100vw;
   padding: 15px;
+  
 }
 
+.footer-container{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.issue-container{
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  font-size: 1.2rem;
+}
+
+.footer-text-wrapper{
+  width: 25vh;
+}
 
 .footer p{
   font-size: 1.2rem;

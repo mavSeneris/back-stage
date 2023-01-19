@@ -5,23 +5,24 @@ import data from './data'
 import Footer from './components/Footer'
 
 function App() {
-  
+
 
   const covers = data.map(cover => {
     return <Main
       key={cover.issue}
-      image ={cover.image}
+      image={cover.image}
       backgroundColor={cover.backgroundColor}
-      issue ={cover.issue}
-      isSoldOut ={cover.isSoldOut}
+      issue={cover.issue}
+      isSoldOut={cover.isSoldOut}
     />
   })
 
+
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       {covers}
-      <Footer/>
+      <Footer />
     </div>
   )
 }
