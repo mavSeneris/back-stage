@@ -29,11 +29,11 @@ img {
   height: auto;
 }
 
-/* Navbar */
-
+/** Navbar */
 .navbar{
   width: 100%;
   position: fixed;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,17 +41,18 @@ img {
 }
 
 .logo{
-  width: 25%;
+  width: 22%;
 }
 
 .contact{
   font-weight: 700;
-  font-size: 1.27rem;
+  font-size: 1.2rem;
 }
 
-/* Main */
 
+/** Main */
 .main{
+  /* position: relative; */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -70,7 +71,7 @@ img {
 }
 
 .cover{
-  width: 450px;
+  width: 400px;
 }
 
 .main-cover-text{
@@ -87,4 +88,34 @@ img {
   text-transform: uppercase;
 }
 
-/* Footer */
+/** Footer */
+.footer{
+  position: fixed;
+  bottom: 0;
+  align-self: flex-start;
+  width: 350px;
+  padding: 15px;
+}
+
+
+.footer p{
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+small{
+  margin-top: 15px;
+}
+
+.footer-links{
+  text-decoration: underline;
+  color: black;
+}
+
+.privacy{
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+
+}
